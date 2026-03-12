@@ -1,4 +1,4 @@
-### AI Agentic Job Seeker
+# AI Agentic Job Seeker
 
 ## Overview
 
