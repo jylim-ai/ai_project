@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 22vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Container */
+.app-container {
+  display: flex;               /* Enable Flexbox */
+  flex-direction: column;      /* Stack children vertically */
+  align-items: center;         /* Center horizontally */
+  justify-content: flex-start; /* Start content from top */
+  min-height: 100vh;           /* Full viewport height */
+  padding: 20px;
+  max-width: 900px;            /* Limit width */
+  margin: 0 auto;              /* Center container horizontally */
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  gap: 30px;                   /* Space between children */
+}
+
+/* Heading */
+.app-container h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.resume-form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.resume-form button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.resume-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Job cards */
+.job-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+}
+
+.job-card strong {
+  font-size: 18px;
+  color: #1e40af;
+}
+
+.job-card a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .app-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .resume-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .resume-form button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .job-card {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

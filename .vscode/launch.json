@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Package: ai_house",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "ai_house"
+        },
+        {
+            "name": "Python Package: ai_agent",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "ai_agent"
+        }
+    ]
+}
