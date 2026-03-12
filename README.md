@@ -4,7 +4,7 @@
 
 Smart Job Finder is a full-stack application designed to help job seekers automatically find and match jobs based on their resumes. It combines AI-powered resume parsing, semantic search, and a modern React frontend for a smooth user experience.
 
-Key technologies:
+## Key technologies:
 
 Resume parsing: Extract skills, experience, and education from PDFs/DOCX
 
