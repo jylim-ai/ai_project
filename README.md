@@ -28,7 +28,7 @@ FAISS → Semantic search of jobs
 
 BeautifulSoup → Job scraping
 
-Frontend (React):
+### Frontend (React):
 
 Upload resume
 
